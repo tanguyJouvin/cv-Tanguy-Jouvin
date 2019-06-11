@@ -35,7 +35,7 @@
           <li><a class="smoothscroll" href="#resume">Etudes</a></li>
           <li><a class="smoothscroll" href="#taf">Expériences professionnelles</a></li>
           <li><a class="smoothscroll" href="#portfolio">Compétences</a></li>
-          <li><a class="smoothscroll" href="#contact">Contact</a></li>
+          <!-- <li><a class="smoothscroll" href="#contact">Contact</a></li> -->
         </ul> <!-- end #nav -->
     </nav> <!-- end #nav-wrap -->
     <div class="row banner">
@@ -61,7 +61,7 @@
   <section id="about">
     <div class="row">
       <div class="three columns">
-        <img class="profile-pic"  src="images/photo_portrait.jpg" alt="tanguy Jouvin" />
+        <img class="profile-pic"  src="images/photo_portrait.jpg" alt="" />
       </div>
       <div class="nine columns main-col">
         <h2>Présentation</h2>
@@ -83,24 +83,19 @@
             </p>
           </div>
             <div class="columns download">
-                <h2>Projets</h2>
               <p>
-                <a href="https://wildcatnip.github.io/" class="button"><i class="fa fa-book"></i>Ce blog fictif a été réalisé avec Bootstrap et inclut du Jquery ainsi que des animations réalisées en css</a>
+                <a href="https://wildcatnip.github.io/" class="button"><i class="fa fa-book"></i>Ce blog fictif a été réalisé avec Bootstrap et inclut la librairie Jquery ainsi que des animations réalisées en css</a>
               </p>
               <p>
                 <a href="https://wildnantesjs.hopto.org/projects/wild-song/" class="button"><i class="fa fa-book"></i>Cette application a été réalisée à l'aide de REACT js
-                pour la partie fonctionnalité, fetch pour récupérer l'API et géolocalisation de l'utilisateur pour chercher les concerts à proximité </a>
+                pour les fonctionnalités, fetch pour récupérer l'API et géolocalisation de l'utilisateur pour chercher les concerts à proximité </a>
               </p>
             </div>
           </div> <!-- end row -->
         </div> <!-- end .main-col -->
     </div>
 
-    
-
   </section> <!-- About Section End-->
-
-
   <!-- Resume Section
   ================================================== -->
   <section id="resume">
@@ -168,11 +163,13 @@
         </div>
       </div> <!-- main-col end -->
     </div> <!-- End Education -->
+  
     <!-- Work
     ----------------------------------------------- -->
-    <div id ="taf" class="row work">
+  
+    <div  class="row work">
       <div class="three columns header-col">
-        <h1><span>Expériences </span><br/><br/>
+        <h1 id="taf"><span>Expériences </span><br/><br/>
         <span>professionnelles</span></h1>
       </div>
       <div class="nine columns main-col">
@@ -200,6 +197,7 @@
         </div> <!-- item end -->
       </div> <!-- main-col end -->
     </div> <!-- End Work -->
+  </section>
     <!-- Skills
     ----------------------------------------------- 
     <div>
@@ -219,15 +217,44 @@
        </div><!-- end skill-bars -->
     <!-- End skills -->
    <!-- Resume Section End-->
-      <!-- Portfolio Section
+  <!-- Portfolio Section
   ================================================== -->
   <section id="portfolio">
-    
-      <div class="row">
-          <div class="twelve columns collapsed">
-            <h1>Compétences</h1>
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+    <div class="row">
+        <div class="twelve columns collapsed">
+          <h1>Compétences</h1>
+          <!-- portfolio-wrapper -->
+          <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
+              <img alt="" src="images/icon/html5.svg">
+            </div>
+            </div> <!-- item end -->
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <img alt="" src="images/icon/iconfinder_social_style_3_css3_341095.svg">
+              </div>
+            </div> <!-- item end -->
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <img alt="" src="images/icon/Boostrap_logo.svg">
+              </div>
+            </div> <!-- item end -->
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <img alt="Js" src="images/icon/js.png">
+              </div>
+            </div> <!-- item end -->
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <img alt="React" src="images/icon/iconfinder_React.js_logo_1174949.svg">
+              </div>
+            </div><!-- item end -->
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <img alt="Node" src="images/icon/iconfinder_node_3069651.svg">
+              </div>
+            </div> <!-- item end -->
             <div class="columns portfolio-item">
               <div class="item-wrap">
                 <img alt="" src="images/icon/html5.svg">
@@ -465,7 +492,7 @@
         </div>
       </div>
         <div class="row">
-          <div class="eight columns">
+          <div class="eight columns"> -->
               <!-- form -->
             <!-- <form action="" method="post" id="contactForm" name="contactForm">
               <fieldset>
@@ -532,7 +559,7 @@
             </div>
           </aside>
     </div>
-  </section>
+  </section> -->
   <!-- Contact Section End -->
 
 
