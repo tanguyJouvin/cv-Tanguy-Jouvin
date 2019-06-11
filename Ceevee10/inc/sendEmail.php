@@ -52,7 +52,7 @@ if($_POST) {
 		if ($mail) { echo "OK"; }
       else { echo "Something went wrong. Please try again."; }
 		
-	} # end if - no validation error
+	} # end if - no validation error , swift mailer library php composer ( composer, ) +  installer php sur ma machine
 
 	else {
 

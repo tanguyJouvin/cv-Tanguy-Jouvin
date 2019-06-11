@@ -197,7 +197,7 @@ ul#nav li.current a { color: #F06000; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 18px/25px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
@@ -212,10 +212,10 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 80%;
    opacity : 0.7;
 }
-#about .contact-details { width: 41.66667%; }
+#about .contact-details { width: 37.66667%; }
 #about .download {
-   width: 58.33333%;
-   padding-top: 6px;
+   width: 42.33333%;
+   padding-top: 16px;
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
@@ -224,11 +224,11 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .download .button:hover {
    background: #fff;
-   color: #2B2B2B;
+   color: #EA8535;
 }
 #about .download .button i {
    margin-right: 15px;
-   font-size: 20px;
+   font-size: 15px;
 }
 
 
@@ -287,7 +287,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #79c4c4;
    padding-top:1.5em;
    padding-bottom: 1.5em;
 }
