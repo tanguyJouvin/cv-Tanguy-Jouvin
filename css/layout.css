@@ -221,14 +221,14 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .contact-details { width: 37.66667%; }
 #about .download {
-   width: 42.33333%;
+   width: auto;
    padding-top: 16px;
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
    background: #444;
-   width : 200%;
+   width : 100%;
 }
 #about .download .button:hover {
    background: #fff;
