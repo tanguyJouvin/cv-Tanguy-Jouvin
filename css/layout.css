@@ -21,7 +21,7 @@
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
-
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=Roboto+Slab&display=swap');
 body { background: #0f0f0f; }
 
 /* ------------------------------------------------------------------ */
@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/circuit.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -58,29 +58,30 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: rgb(202, 46, 46);
+   font: 90px/1.1em 'Roboto Slab', serif;
+   color: #F6C652;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 0px 3px 2px #DB3D07;
 }
 header .banner-text h2 {
-   font: 60px/1em 'opensans-bold', sans-serif;
-   color: rgb(202, 46, 46);
+   font: 60px/1em 'Roboto Slab', serif;
+   color: #F6C652;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 0px 2px 3px rgba(243, 238, 238, 0.8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   font: 22px/2.1em  15px/30px 'Kiwi Maru', serif;
+   color: #fffdfd;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 2px 3px rgba(0, 0, 0, .5);
+   text-shadow: 0px 2px 2px rgba(0, 0, 0,1);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color:#DB3D07;
+   text-shadow: 0px 1px 1px rgb(15, 15, 15);
 }
 header .banner-text hr {
    width: 60%;
@@ -94,7 +95,7 @@ header .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);
 }
 header .social li {
    display: inline-block;
@@ -221,14 +222,14 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .contact-details { width: 37.66667%; }
 #about .download {
-   width: 42.33333%;
+   width: auto;
    padding-top: 16px;
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
    background: #444;
-   width : 200%;
+   width : 100%;
 }
 #about .download .button:hover {
    background: #fff;
